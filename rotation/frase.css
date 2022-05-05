@@ -8,3 +8,37 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+body {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#testoAlternato {
+    width: auto;
+    background-color: rgb(243, 244, 245);
+    border: 2px solid lightseagreen;
+    padding: 2rem;
+    margin: auto;
+    font: bold 1.8rem/2 'Bree Serif', serif;
+    text-align: justify;
+    display: inline-block;
+}
+
+.parole {
+    width: 12rem;
+    height: 2.4rem;
+    padding: 0.2rem;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+    color: lightseagreen;
+    animation-name: carousel;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+@keyframes carousel {
+}
