@@ -29,23 +29,20 @@ section div {
     padding: 3rem;
     margin: 1.5rem;
     box-shadow: 2px 2px 4px 1px rgb(66, 62, 62);
-}
-
-.yellow {
     background-color: rgb(255, 249, 170);
     transform: rotate(-5deg);
 }
 
-.green {
+section div:nth-child(2n+2) {
     background-color: rgb(183, 255, 183);
     transform: rotate(8deg);
 }
 
-.blue {
+section div:nth-child(3n) {
     background-color: rgb(185, 224, 248);
     transform: rotate(-8deg);
 }
 
-.line1 div:hover, .line2 div:hover {
+section div:hover, section div:hover {
     transform: scale(120%, 120%);
 }
